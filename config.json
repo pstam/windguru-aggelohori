@@ -1,0 +1,37 @@
+{
+  "spot_id": 105316,
+  "spot_name": "Aggelohori",
+  "timezone": "Europe/Athens",
+  "models": [
+    {
+      "key": "aladin",
+      "id_model": 107,
+      "expected_model": "alace",
+      "expected_name_contains": "ALADIN 2.3"
+    },
+    {
+      "key": "zephr",
+      "id_model": 64,
+      "expected_model": "swrfeu",
+      "expected_name_contains": "Zephr-HD 2.6"
+    },
+    {
+      "key": "wrf3",
+      "id_model": 98,
+      "expected_model": "wrfgri",
+      "expected_name_contains": "WRF 3"
+    },
+    {
+      "key": "ifs_hres",
+      "id_model": 117,
+      "expected_model": "ifs",
+      "expected_name_contains": "IFS-HRES"
+    },
+    {
+      "key": "gfs",
+      "id_model": 3,
+      "expected_model": "gfs",
+      "expected_name_contains": "GFS 13"
+    }
+  ]
+}
