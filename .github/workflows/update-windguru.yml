@@ -1,0 +1,54 @@
+name: Update Windguru data
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: windguru-data-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch latest Windguru forecasts
+        run: python fetch_windguru.py
+
+      - name: Keep 90 days of history
+        shell: bash
+        run: |
+          find data/history -type f -name '*.json' -mtime +90 -delete 2>/dev/null || true
+
+      - name: Commit data when changed
+        shell: bash
+        run: |
+          if [ -z "$(git status --porcelain -- data/latest.json data/history)" ]; then
+            echo "No data changes"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/latest.json data/history
+          git commit -m "Update Windguru forecast"
+          git push
