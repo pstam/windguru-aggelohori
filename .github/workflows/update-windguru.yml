@@ -3,6 +3,11 @@ name: Update Windguru data
 on:
   schedule:
     - cron: "17 * * * *"
+
+  # Extra refresh λίγο πριν από τις αναφορές 08:00 και 20:00 Ελλάδας
+    # Καλύπτει θερινή και χειμερινή ώρα
+    - cron: "57 4,5,16,17 * * *"
+  
   workflow_dispatch:
 
 permissions:
