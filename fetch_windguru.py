@@ -610,8 +610,7 @@ def main() -> int:
 
     metadata_urls: dict[str, str] = {}
 
-    requested_rundefs:
-        dict[str, str] = {}
+    requested_rundefs: dict[str, str] = {}
 
     fresh_models: list[str] = []
 
