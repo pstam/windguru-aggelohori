@@ -1,0 +1,150 @@
+:root {
+  --bg-dark: #0b0f19;
+  --bg-card: rgba(18, 24, 38, 0.75);
+  --bg-card-border: rgba(255, 255, 255, 0.08);
+  --primary: #3b82f6;
+  --primary-glow: rgba(59, 130, 246, 0.35);
+  --cyan-glow: rgba(6, 182, 212, 0.3);
+  --text-main: #f3f4f6;
+  --text-muted: #9ca3af;
+  --accent-amber: #f59e0b;
+  --font-sans: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-dark);
+  background-image: 
+    radial-gradient(circle at 15% 15%, rgba(59, 130, 246, 0.12) 0%, transparent 40%),
+    radial-gradient(circle at 85% 85%, rgba(6, 182, 212, 0.1) 0%, transparent 40%);
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Glassmorphism containers */
+.glass-card {
+  background: var(--bg-card);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--bg-card-border);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  transition: all 0.25s ease-in-out;
+}
+
+.glass-card:hover {
+  border-color: rgba(255, 255, 255, 0.16);
+}
+
+.glass-button {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: var(--text-main);
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+}
+
+.glass-button:hover {
+  background: rgba(59, 130, 246, 0.2);
+  border-color: rgba(59, 130, 246, 0.5);
+  box-shadow: 0 0 16px var(--primary-glow);
+}
+
+.glass-button.active {
+  background: linear-gradient(135deg, #2563eb, #0284c7);
+  border-color: #60a5fa;
+  color: white;
+  box-shadow: 0 0 20px var(--primary-glow);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(59, 130, 246, 0.5);
+}
+
+/* Wind Speed Color Heatmap System */
+.wind-bg-0 { background-color: rgba(148, 163, 184, 0.15); color: #cbd5e1; }
+.wind-bg-1 { background-color: rgba(56, 189, 248, 0.2); color: #7dd3fc; }
+.wind-bg-2 { background-color: rgba(45, 212, 191, 0.25); color: #5eead4; }
+.wind-bg-3 { background-color: rgba(74, 222, 128, 0.3); color: #86efac; }
+.wind-bg-4 { background-color: rgba(250, 204, 21, 0.35); color: #fde047; font-weight: 600; }
+.wind-bg-5 { background-color: rgba(251, 146, 60, 0.4); color: #fdba74; font-weight: 700; }
+.wind-bg-6 { background-color: rgba(248, 113, 113, 0.45); color: #fca5a5; font-weight: 700; }
+.wind-bg-7 { background-color: rgba(232, 121, 249, 0.5); color: #f0abfc; font-weight: 800; }
+.wind-bg-8 { background-color: rgba(192, 132, 252, 0.6); color: #e9d5ff; font-weight: 800; }
+
+/* Custom Leaflet Map styling */
+.leaflet-container {
+  border-radius: 14px;
+  width: 100%;
+  height: 280px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.leaflet-tile-pane {
+  filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3);
+}
+
+/* Responsive Grid Layout */
+.app-container {
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.badge-live {
+  background: rgba(34, 197, 94, 0.15);
+  border: 1px solid rgba(34, 197, 94, 0.4);
+  color: #4ade80;
+}
+
+.badge-cache {
+  background: rgba(245, 158, 11, 0.15);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  color: #fbbf24;
+}
+
+/* Compass Arrow animation */
+.compass-arrow {
+  display: inline-block;
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
