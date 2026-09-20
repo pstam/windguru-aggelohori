@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "collector_fetched_at_utc": "2026-09-20T18:46:03.822309Z",
+  "collector_fetched_at_utc": "2026-09-20T19:05:31.438576Z",
   "latest_model_init_utc": "2026-09-20T12:00:00Z",
   "run_signature": "e6bef16671f72d59",
   "spot": {
@@ -7332,18 +7332,18 @@
   },
   "errors": {},
   "source_urls": {
-    "aladin": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=107&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1789929961893&rundef=2026092012x0x72x0x72",
-    "zephr": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=64&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1789929962268&rundef=2026092006x22x36x22x36-2026092006x46x60x46x60-2026092006x70x84x70x84-2026091918x106x120x106x120-2026092012x112x126x112x126",
-    "wrf3": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=98&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1789929962736&rundef=2026092012x0x24x0x24-2026092006x25x48x31x48",
-    "ifs_hres": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=117&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1789929963134&rundef=2026092006x0x144x0x144-2026092000x0x360x156x360",
-    "gfs": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=3&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1789929963527&rundef=2026092012x0x240x0x240-2026092012x243x384x243x384"
+    "aladin": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=107&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1789931129593&rundef=2026092012x0x72x0x72",
+    "zephr": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=64&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1789931129949&rundef=2026092006x22x36x22x36-2026092006x46x60x46x60-2026092006x70x84x70x84-2026091918x106x120x106x120-2026092012x112x126x112x126",
+    "wrf3": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=98&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1789931130402&rundef=2026092012x0x24x0x24-2026092006x25x48x31x48",
+    "ifs_hres": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=117&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1789931130770&rundef=2026092006x0x144x0x144-2026092000x0x360x156x360",
+    "gfs": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=3&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1789931131134&rundef=2026092012x0x240x0x240-2026092012x243x384x243x384"
   },
   "metadata_urls": {
-    "aladin": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=107&WGCACHEABLE=0&cachefix=1789929961597",
-    "zephr": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=64&WGCACHEABLE=0&cachefix=1789929962104",
-    "wrf3": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=98&WGCACHEABLE=0&cachefix=1789929962584",
-    "ifs_hres": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=117&WGCACHEABLE=0&cachefix=1789929962975",
-    "gfs": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=3&WGCACHEABLE=0&cachefix=1789929963366"
+    "aladin": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=107&WGCACHEABLE=0&cachefix=1789931129346",
+    "zephr": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=64&WGCACHEABLE=0&cachefix=1789931129804",
+    "wrf3": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=98&WGCACHEABLE=0&cachefix=1789931130223",
+    "ifs_hres": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=117&WGCACHEABLE=0&cachefix=1789931130610",
+    "gfs": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=3&WGCACHEABLE=0&cachefix=1789931130971"
   },
   "requested_rundefs": {
     "aladin": "2026092012x0x72x0x72",
