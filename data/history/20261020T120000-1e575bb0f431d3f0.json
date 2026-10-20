@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "collector_fetched_at_utc": "2026-10-20T20:10:10.947951Z",
+  "collector_fetched_at_utc": "2026-10-20T22:17:41.157621Z",
   "latest_model_init_utc": "2026-10-20T12:00:00Z",
   "run_signature": "1e575bb0f431d3f0",
   "spot": {
@@ -34,7 +34,7 @@
       "pro": true,
       "init_utc": "2026-10-20T12:00:00Z",
       "update_last": "2026-10-20 15:33:02",
-      "update_next": "2026-10-20 22:20:00",
+      "update_next": "2026-10-21 03:45:00",
       "rundef_received": "2026102012x0x72x0x72",
       "forecast": [
         {
@@ -4676,7 +4676,7 @@
       "pro": false,
       "init_utc": "2026-10-20T12:00:00Z",
       "update_last": "2026-10-20 16:47:02",
-      "update_next": "2026-10-20 22:45:00",
+      "update_next": "2026-10-21 05:20:00",
       "rundef_received": "2026102012x0x240x0x240-2026102012x243x384x243x384",
       "forecast": [
         {
@@ -7220,18 +7220,18 @@
   },
   "errors": {},
   "source_urls": {
-    "aladin": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=107&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1792527009254&rundef=2026102012x0x72x0x72",
-    "zephr": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=64&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1792527009631&rundef=2026102012x16x30x16x30-2026102012x40x54x40x54-2026102006x70x84x70x84-2026102006x94x108x94x108",
-    "wrf3": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=98&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1792527009988&rundef=2026102012x0x24x0x24-2026102012x25x48x25x48",
-    "ifs_hres": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=117&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1792527010346&rundef=2026102012x0x360x0x360",
-    "gfs": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=3&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1792527010655&rundef=2026102012x0x240x0x240-2026102012x243x384x243x384"
+    "aladin": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=107&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1792534658984&rundef=2026102012x0x72x0x72",
+    "zephr": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=64&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1792534659423&rundef=2026102012x16x30x16x30-2026102012x40x54x40x54-2026102006x70x84x70x84-2026102006x94x108x94x108",
+    "wrf3": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=98&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1792534659877&rundef=2026102012x0x24x0x24-2026102012x25x48x25x48",
+    "ifs_hres": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=117&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1792534660312&rundef=2026102012x0x360x0x360",
+    "gfs": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=3&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1792534660799&rundef=2026102012x0x240x0x240-2026102012x243x384x243x384"
   },
   "metadata_urls": {
-    "aladin": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=107&WGCACHEABLE=0&cachefix=1792527008975",
-    "zephr": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=64&WGCACHEABLE=0&cachefix=1792527009469",
-    "wrf3": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=98&WGCACHEABLE=0&cachefix=1792527009823",
-    "ifs_hres": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=117&WGCACHEABLE=0&cachefix=1792527010184",
-    "gfs": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=3&WGCACHEABLE=0&cachefix=1792527010505"
+    "aladin": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=107&WGCACHEABLE=0&cachefix=1792534658663",
+    "zephr": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=64&WGCACHEABLE=0&cachefix=1792534659215",
+    "wrf3": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=98&WGCACHEABLE=0&cachefix=1792534659669",
+    "ifs_hres": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=117&WGCACHEABLE=0&cachefix=1792534660118",
+    "gfs": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=3&WGCACHEABLE=0&cachefix=1792534660606"
   },
   "requested_rundefs": {
     "aladin": "2026102012x0x72x0x72",
