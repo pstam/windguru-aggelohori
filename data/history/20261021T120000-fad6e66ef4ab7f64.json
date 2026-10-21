@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "collector_fetched_at_utc": "2026-10-21T20:23:17.400156Z",
+  "collector_fetched_at_utc": "2026-10-21T22:18:48.036902Z",
   "latest_model_init_utc": "2026-10-21T12:00:00Z",
   "run_signature": "fad6e66ef4ab7f64",
   "spot": {
@@ -34,7 +34,7 @@
       "pro": true,
       "init_utc": "2026-10-21T12:00:00Z",
       "update_last": "2026-10-21 15:31:02",
-      "update_next": "2026-10-21 22:20:00",
+      "update_next": "2026-10-22 03:45:00",
       "rundef_received": "2026102112x0x72x0x72",
       "forecast": [
         {
@@ -4886,7 +4886,7 @@
       "pro": false,
       "init_utc": "2026-10-21T12:00:00Z",
       "update_last": "2026-10-21 16:48:02",
-      "update_next": "2026-10-21 22:45:00",
+      "update_next": "2026-10-22 05:20:00",
       "rundef_received": "2026102112x0x240x0x240-2026102112x243x384x243x384",
       "forecast": [
         {
@@ -7430,18 +7430,18 @@
   },
   "errors": {},
   "source_urls": {
-    "aladin": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=107&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1792614195044&rundef=2026102112x0x72x0x72",
-    "zephr": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=64&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1792614195596&rundef=2026102100x4x18x4x18x2026102105-2026102018x34x48x34x48-2026102100x52x66x52x66-2026102018x82x96x82x96-2026102018x107x121x107x121",
-    "wrf3": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=98&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1792614196075&rundef=2026102112x0x24x0x24-2026102112x25x48x25x48",
-    "ifs_hres": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=117&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1792614196549&rundef=2026102112x0x360x0x360",
-    "gfs": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=3&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1792614196996&rundef=2026102112x0x240x0x240-2026102112x243x384x243x384"
+    "aladin": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=107&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1792621126026&rundef=2026102112x0x72x0x72",
+    "zephr": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=64&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1792621126440&rundef=2026102100x4x18x4x18x2026102105-2026102018x34x48x34x48-2026102100x52x66x52x66-2026102018x82x96x82x96-2026102018x107x121x107x121",
+    "wrf3": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=98&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1792621126874&rundef=2026102112x0x24x0x24-2026102112x25x48x25x48",
+    "ifs_hres": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=117&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1792621127299&rundef=2026102112x0x360x0x360",
+    "gfs": "https://www.windguru.net/int/iapi.php?q=forecast&id_model=3&id_spot=105316&ai=1&WGCACHEABLE=0&cachefix=1792621127688&rundef=2026102112x0x240x0x240-2026102112x243x384x243x384"
   },
   "metadata_urls": {
-    "aladin": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=107&WGCACHEABLE=0&cachefix=1792614194721",
-    "zephr": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=64&WGCACHEABLE=0&cachefix=1792614195273",
-    "wrf3": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=98&WGCACHEABLE=0&cachefix=1792614195862",
-    "ifs_hres": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=117&WGCACHEABLE=0&cachefix=1792614196332",
-    "gfs": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=3&WGCACHEABLE=0&cachefix=1792614196805"
+    "aladin": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=107&WGCACHEABLE=0&cachefix=1792621125707",
+    "zephr": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=64&WGCACHEABLE=0&cachefix=1792621126234",
+    "wrf3": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=98&WGCACHEABLE=0&cachefix=1792621126682",
+    "ifs_hres": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=117&WGCACHEABLE=0&cachefix=1792621127108",
+    "gfs": "https://www.windguru.net/int/iapi.php?q=wg_model&id_model=3&WGCACHEABLE=0&cachefix=1792621127511"
   },
   "requested_rundefs": {
     "aladin": "2026102112x0x72x0x72",
